@@ -5,7 +5,7 @@ This repository contains all the work which I undertook and completed, while pur
 Data Communications and Fundamentals Course (Networking Aspects of Computer Science)
 including the following:
 
-* Lecture Notes
+* Lecture Notes ( Professor provided work )
 * Labs
 * Assignments
 
