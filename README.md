@@ -15,7 +15,7 @@ NOTE: Assignments in this course were all a group comprehensive work so all the 
       course work were completed by me solely.
 
 -----------------------------------
-DATA COMMUNICATIONS & FUNDAMENTALS:
+COURSE DESCRIPTION:
 -----------------------------------
 * This course covers the fundamentals of data communications for computer programmers.
 * Using well-known and widely-used Internet applications and standard networking technology as examples,
@@ -24,4 +24,19 @@ DATA COMMUNICATIONS & FUNDAMENTALS:
   that works effectively in the modern connected world.
 * This course is designed to support same-level programming courses, and for future programming courses
   which depend upon data communications and networking.
+
+-----------------------------------
+COURSE LEARNING OUTCOMES:
+-----------------------------------
+With the successful completion of this subject:
+
+One Can...
+
+-> Understand the terminology of data communications and networks to improve comprehension and the ability to explain to others.
+-> Identify network characteristics, and their hardware and software, to enable implementation and configuration tasks.
+-> Use published standards to compose a solution or work plan.
+-> Explain the structure and functionality of the internet and the TCP/IP protocol to improve your computer use and programming skills.
+-> Demonstrate knowledge and use of widely-used applications on the internet to complete common tasks.
+-> Create simple programs that communicate over a network.
+-> Examine a security, deployment, and reliability problems to understand an existing system, or to implement a new system.
 ```
