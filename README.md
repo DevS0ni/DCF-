@@ -44,4 +44,47 @@ One Can...
 * Create simple programs that communicate over a network.
 * Examine a security, deployment, and reliability problems to understand an existing system, or
   to implement a new system.
+> Study and explore widely-used data communications networks
+> understand the role of standards, and a study of modern standards
+      * The Internet
+      * TCP/IP
+      * Seven-layer model
+> Understanding networks
+      * Physical layer
+      * Data link layer
+      * Internet layer
+> Switching and routing
+> Studying Ethernet, wired and wireless
+> Network security issues
+```
+
+----------------------------------------
+Technologies & Tools Used for the Course
+----------------------------------------
+```
+- Microsoft Visual Studio (Only Microsoft Windows)
+- Visual Studio Code (Mac OS & Microsoft Windows)
+- X Code (Apple's IDE - Mac OS)
+- Dev C++ (IDE for C/ C++ languages)
+- WireShark - free and open-source packet analyzer.
+- Cisco Packet Tracer - cross-platform visual simulation tool
+- WordPress - web content management system.
+- Integrated `cmd` terminal (Microsoft Windows)
+- Terminal (Mac OSX)
+- Matrix Server (a cluster of Linux CentOS servers.)
+- SSH Client (Secure Shell Script - Microsoft Windows)
+- PuTTY (Free SSH & telnet Client - Microsoft Windows)
+- WinSCP (Free Open-Source SFTP Client - Microsoft Windows)
+- FileZilla (File Transfer Client - Microsoft Windows & MacOS)
+- CyberDuck (File Transfer Client - MacOS & Microsoft Windows - alternate to WinSCP)
+```
+----------------------------------------
+Academic Honesty/ Integrity Statement
+----------------------------------------
+```
+I declare that all the code & programs in this repository is entirely my own work.
+
+NOTE: For others, this repo can be a good reference, if someone wants to learn &
+understand the aspects of Data Communications & Fundamentals Concepts and it's topic
+but must not copy the work completed by me or included in this repo!
 ```
