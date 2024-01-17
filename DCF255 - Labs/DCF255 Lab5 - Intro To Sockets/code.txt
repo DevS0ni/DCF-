@@ -1,0 +1,8 @@
+		**DCF255NKK - LAB5 CODING SECTION**
+		**NAME - SONI DEV ALPESHBHAI**
+		**STUDENT ID - 130759210**
+		**ATTRIBUTE (CODE REFERENCE - [Python Tutorial -- Networking](https://youtu.be/XiVVYfgDolU) 
+		-> [ However, the code has been modified by me, the below code has not been copied entirely from the provided link, the link is just for the reference purpose, the code has been modified by me
+                     personally :) ]**
+
+1.) tcpServer.py  (Server Ð side):import socketdef Main():        host = '127.0.0.1'        port = 60001        s = socket.socket()        s.bind((host, port))        s.listen(1)        c, addr = s.accept()        print ("Connection from: " + str(addr))        while True:                data = c.recv(1024).decode()                if not data:                        break                print ("from connected user: " + str(data))                data = str(data).upper()                print ("sending: " + str(data))                c.send(data.encode())        c.close()                  if __name__ == '__main__':          Main()2.) tcpClient.py  (Client Ð side):import socketdef Main():        host = '127.0.0.1'        port = 60001        s = socket.socket()        s.connect((host,port))        message = input("-> ")        while message != 'q':                s.send(message.encode())                data = s.recv(1024).decode()                print ('Received from server: ' + str(data))                message = input("-> ")        s.close()if __name__ == '__main__':        Main()
