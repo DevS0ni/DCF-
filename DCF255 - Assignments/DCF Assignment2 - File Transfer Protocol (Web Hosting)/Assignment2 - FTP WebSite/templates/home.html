@@ -1,0 +1,141 @@
+<!-- wp:template-part {"slug":"header-small-dark","tagName":"header"} /-->
+
+<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"tagName":"main","displayLayout":{"type":"list"},"layout":{"inherit":true}} -->
+<main class="wp-block-query"><!-- wp:post-template {"align":"wide"} -->
+<!-- wp:group {"layout":{"inherit":true}} -->
+<div class="wp-block-group"><!-- wp:group {"align":"wide"} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide","gradient":"pale-ocean"} -->
+<div class="wp-block-columns alignwide has-pale-ocean-gradient-background has-background"><!-- wp:column {"width":"650px"} -->
+<div class="wp-block-column" style="flex-basis:650px"><!-- wp:list {"ordered":true,"type":"1","backgroundColor":"luminous-vivid-amber","textColor":"vivid-cyan-blue","fontSize":"medium"} -->
+<ol type="1" class="has-vivid-cyan-blue-color has-luminous-vivid-amber-background-color has-text-color has-background has-medium-font-size"><li><strong>Introduction</strong></li></ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"backgroundColor":"pale-pink","textColor":"primary"} -->
+<p class="has-primary-color has-pale-pink-background-color has-text-color has-background">File Transfer Protocol (FTP) is part of TCP/IP suite. It is used to transfer files reliably across different platforms. It is an application layer protocol. The main objectives of FTP are:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"textColor":"primary"} -->
+<ul class="has-primary-color has-text-color"><li>Transfer of files.</li><li>Simplification of remote terminal usage and variations in different system.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">This report covers the history, basic terminology, real-life usage and finally the importance of FTP.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"backgroundColor":"luminous-vivid-amber","textColor":"vivid-cyan-blue","fontSize":"medium"} -->
+<p class="has-vivid-cyan-blue-color has-luminous-vivid-amber-background-color has-text-color has-background has-medium-font-size">2.<strong> History</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">FTP has seen extensive evolution throughout time. Appendix III is a chronological listing of all the documents that were involved with the FTP Request for Comments. These include the debate and comments in RFC 141 as well as RFC 114, the first proposed file transfer protocol that was developed in 1971 for usage on hosts at M.I.T.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">RFC 172 defined a user-level-oriented protocol for file transfer between hosts. This was changed as RFC 265 and FTP were reissued for more analysis and RFC 281 introduced more changes. RFC 294 proposed the use of a "Set Data Type" transaction in January 1982. While RFC 414 offered a status update on the operational server and user FTPs, RFC 385 included further comments on problems, emphasis points, and protocol enhancements. Although there had been significant changes from the previous iterations of FTP by July 1973, the fundamental structure remained the same. Moreover, RFCs 607 and 614 resumed the discussion of FTP in 1974. RFC 624 suggested more design alterations and small fixes. The current version of the FTP specification aims to add a few new optional commands, fix a few minor documentation issues, and properly understand several protocol aspects.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"backgroundColor":"luminous-vivid-amber","textColor":"vivid-cyan-blue","fontSize":"medium"} -->
+<p class="has-vivid-cyan-blue-color has-luminous-vivid-amber-background-color has-text-color has-background has-medium-font-size">3. <strong>Terminology</strong>  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><em>-></em></strong> <strong>Data Types</strong>:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"textColor":"primary"} -->
+<ul class="has-primary-color has-text-color"><li><strong>ASCII TYPE</strong>: This is the default type and is accepted by all FTP types and Clients. It’s used to transfer text files but, if both sides can easily use EBCDIC type, that type is used.</li><li><strong>EBCDIC TYPE</strong>: This type is also used to transfer text files but, it is more efficient than ASCII representation and it contains wider range of characters.</li><li><strong>IMAGE TYPE</strong>: This type is also accepted by every implementation of FTP. It is used for efficient transfer of files and binary data.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong><em>-></em></strong> <strong>Data Structures</strong>:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"textColor":"primary"} -->
+<ul class="has-primary-color has-text-color"><li><strong>File-structure</strong>: There is no structure, file is a continuous sequence of data bytes.</li><li><strong>Record-Structure</strong>: File is made of sequential records.</li><li><strong>Page-Structure</strong>: File is made up of indexed pages. Every page has a header which contains header length, page index, data length and page type.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong><em>-></em></strong> <strong>FTP Types</strong>:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"textColor":"primary"} -->
+<ul class="has-primary-color has-text-color"><li><strong>Anonymous FTP</strong>: Most basic form of FTP. Provides support for data transfers without encryption of data or a username and password. Most commonly used for downloading material that is allowed for unrestricted distribution. Works on port 21.</li><li><strong>Password-protected FTP</strong>: Also a basic FTP service, but requires the use of a username and password, but the service might not be encrypted or secure. Also works on port 21.</li><li><strong>FTP Secure (FTPS)</strong>: It is sometimes referred to as FTP Secure Sockets Layer (FTP-SSL), it enables implicit Transport Layer Security (TLS) as soon as an FTP connection is established. FTPS was initially used to transfer data more securely. It typically uses] port 990.</li><li><strong>FTP over explicit SSL/TLS (FTPES)</strong>: It enables explicit TLS support by changing the connection on port 21 to an encrypted connection. This is commonly used by web and file sharing services to enable secure file transfers.</li><li><strong>Secure FTP (SFTP)</strong>: Not an FTP protocol, functions similarly. It is a subset of the Secure Shell (SSH) protocol, runs over port 22. Commonly used by systems administrators to remotely and securely access systems and applications. It provides a mechanism within SSH for secure file transfer.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong><em>-></em></strong> <strong>Clients</strong>:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"textColor":"primary"} -->
+<ul class="has-primary-color has-text-color"><li><em><strong>FileZilla</strong></em>: Free FTP client for Windows, macOS and Linux, supports FTP, FTPS and SFTP.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:list {"textColor":"primary"} -->
+<ul class="has-primary-color has-text-color"><li><strong><em>Transmit</em></strong>: FTP client for macOS, supports FTP and SSH.</li><li><strong><em>WinSCP</em></strong>: A Windows FTP client that supports FTP, SSH and SFTP.</li><li><strong><em>WS_FTP</em></strong>: This is another Windows FTP client that supports SSH.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"backgroundColor":"luminous-vivid-amber","textColor":"vivid-cyan-blue","fontSize":"medium"} -->
+<p class="has-vivid-cyan-blue-color has-luminous-vivid-amber-background-color has-text-color has-background has-medium-font-size">4. <strong>Working and Usage</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">Control Connection: The FTP client makes a connection request to server port number 21 typically, for instance, using FileZilla or FileZilla Pro.  It is used to transmit orders and receive their answers. Most FTP servers need a user to log in before they can connect, however some offer access to all of their material without requiring a login. These are referred to as anonymous FTP servers. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color"><strong>Data Connection:</strong> We utilize a different connection called a data connection to transmit files and folders.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":8,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="http://localhost:8888/DCFAssignment2/wp-content/uploads/2022/08/FTPClient.jpg" alt="" class="wp-image-8"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">This connection can be established in two ways:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color"><strong>Active Mode</strong>: In this mode, the user connects to the server's port 21 using a random port (in this case, random port 1) on the FTP client. It sends the PORT instruction, which instructs the server to connect to the client's port, which is (random port 2). The client has specified Random Port 2 as the port to which the server will connect from port 20. Data is sent across these client and server ports once the connection has been made.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color"><strong>Passive Mode</strong>: This mode must be used when the client is unable to accept connections, such as when a firewall is in place. Due to the fact that the client is now protected by a firewall, this is the most used option (e.g. built-in Windows Firewall). In this mode, the user connects to the server's port 21 using a random port (in this case, random port 1) on the FTP client. It transmits the PASV instruction, which instructs the client to connect to random port 3 on the server in order to create a connection. The client establishes a connection from Random Port 2 to Random Port 3, the port that the server has assigned. Once the connection is made, these client and server applications are used to transport data.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"backgroundColor":"luminous-vivid-amber","textColor":"vivid-cyan-blue","fontSize":"medium"} -->
+<p class="has-vivid-cyan-blue-color has-luminous-vivid-amber-background-color has-text-color has-background has-medium-font-size">5. <strong>Importance</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">Instead of FTP, files and data can be transferred using other services such as emails and web services, but those services do not provide control and precision. Therefore, FTP is very important for businesses that wants data transfer between their networks and employees. Basically, FTP is necessary for any individual or a company that needs data sharing over the internet.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"backgroundColor":"luminous-vivid-amber","textColor":"vivid-cyan-blue","fontSize":"medium"} -->
+<p class="has-vivid-cyan-blue-color has-luminous-vivid-amber-background-color has-text-color has-background has-medium-font-size">6. <strong>Conclusion</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary"} -->
+<p class="has-primary-color has-text-color">To Conclude, if the requirement of the program is to share files to a remote system, then FTP will be used to complete the process securely, reliably and efficiently because it supports every file type and almost every operating system with added security.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"backgroundColor":"cyan-bluish-gray"} -->
+<p class="has-cyan-bluish-gray-background-color has-background"><strong>Group - 1 (DCF255 Assignment 2) :</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"backgroundColor":"cyan-bluish-gray","textColor":"vivid-cyan-blue"} -->
+<p class="has-vivid-cyan-blue-color has-cyan-bluish-gray-background-color has-text-color has-background">Soni Dev Alpeshbhai (Website Designer)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":16,"mediaLink":"http://localhost:8888/DCFAssignment2/deliverable2pic/","mediaType":"image"} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="http://localhost:8888/DCFAssignment2/wp-content/uploads/2022/08/Deliverable2pic-1024x699.png" alt="" class="wp-image-16 size-full"/></figure><div class="wp-block-media-text__content"></div></div>
+<!-- /wp:media-text --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></main>
+<!-- /wp:query -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
